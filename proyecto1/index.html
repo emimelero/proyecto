@@ -6,35 +6,63 @@
     <title>Ñipstar</title>
 </head>
 <style>
+    *{
+        margin: 0;
+    }
     ul{
         display: flex;
         list-style: none;
         
     }
+    body{
+        background-color: #eeffff;
+    }
 
     nav{
-        background-image: linear-gradient(rgb(5, 67, 126),rgb(10, 223, 223));
-        padding: 10px 0;
-        border: 2px solid black;
-        border-radius: 20px;
-        width: 60%;
-        margin-left: 20%;
+        background-color: #002e5e;
+        border: 0.1px solid black;
+        width: 100%;
+        position: sticky;
+        padding: 10px;
+        top:0px;
+        
         
     }
     a{
-        color: black;
+        color: white;
         text-decoration: none;
+        padding: 5px;
+        font-size: large;
+        margin-left: 11%;
     }
 
+    a:hover{
+        background-color: grey;
+    }
+
+    header{
+    
+        width: 100%;
+        background-color: #002e5e;
+    }
+    .fondo{
+        position: absolute;
+        opacity: 0.2;
+        width: 25%;
+        left: 720px;
+        top:140px;
+    }
 </style>
 <body>
+    <img class="fondo" src="img/AlpatiCF4-removebg-preview.png">
     <nav>
+        <img src="" alt="">
         <ul>
-            <li><a href="#">Camisetas</a></li>
-            <li><a href="#">Zapatillas</a></li>
-            <li><a href="#">Chandal</a></li>
-            <li><a href="#">Cholas</a></li>
-            <li><a href="#">Picolo Guacamole</a></li>
+            <a href="#"><li>Camisetas</li></a>
+            <a href="#"><li>Zapatillas</li></a>
+            <a href="#"><li>Chandal</li></a>
+            <a href="#"><li>Cholas</li></a>
+            <a href="#"><li>Picolo Guacamole</li></a>
         </ul>
     </nav>
 </body>
