@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ñipstar</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        flex-grow: 1;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    li{
+        list-style: none;
+        background-color: #002e5e;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    ul{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .fondo{
+        position: absolute;
+        opacity: 0.2;
+        width: 25%;
+        left: 720px;
+        top:140px;
+    }
+    nav{
+        width: 100%;
+        /* background-color: #2FA3D1; */
+        background-image: linear-gradient(#2FA3D1,#002e5e);
+        padding: 10px;
+    }
+    a>img{
+        width: 20px;
+    }
+    li:hover{
+        background-color: rgb(187, 185, 185);
+        color: black;
+    }
+    .menu-left{
+        display: flex;
+        width: 100%;
+    }
+    .menu-right{
+        display: flex;
+        align-items: center;
+    }
+    .menu-right a {
+        margin-left: 15px;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .menu-right img {
+        width: 25px;
+        height: 25px;
+    }
+    .login {
+        padding: 8px 15px;
+        background-color: #ff9900;
+        border-radius: 4px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .carro img {
+        width: 30px;
+    }
+
+</style>
+<body>
+    <nav>
+        <ul>
+            <div class="menu-left">
+                <a href="#" style="margin-left: 35px;"><li>Camisetas</li></a>
+                <a href="#"><li>Zapatillas</li></a>
+                <a href="#"><li>Chandal</li></a>
+                <a href="#"><li>Cholas</li></a>
+                <a href="#"><li>Picolo Guacamole</li></a>
+            </div>
+
+            <div class="menu-right">
+                <a class="carro" href="carrito.com">
+                    <img src="img/blob2.png" alt="Carrito">
+                </a>
+                <a class="login" href="login.com">Iniciar Sesión</a>
+            </div>
+        </ul>
+    </nav>
+    <img class="fondo" src="img/AlpatiCF4-removebg-preview.png">
+</body>
+</html>
